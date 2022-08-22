@@ -1,0 +1,146 @@
+
+:root {
+
+    & .container-fluid {
+        & .container {
+            padding: 80px 100px 300px 100px;
+
+        }
+    }
+
+    
+}
+
+.container-fluid {
+    .container {
+
+        & .contact-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        hr {
+            background-color: #E5E5E5;
+            height: 1px;
+            border: none;
+        }
+    
+        > .header-container {
+            font-size: 32px;
+            padding: 32px 0;
+    
+        }
+    
+        > .footer-container {
+            padding: 32px 0;
+            gap: 8px;
+    
+            & .footer-item {
+                display: flex;
+                align-items: baseline;
+                gap: 20px;
+                text-transform: none;
+                font-size: 24px;
+    
+                & p {
+                    margin: 0;
+                }
+            
+                & span{
+                    font-weight: 600;
+                }
+            }
+    
+            & .btn-container {
+                margin: 12px 0;
+    
+                & .btn-item {
+                    width: 279px;
+                    height: 43px;
+                }
+            }
+        }
+    
+    }
+
+    .container > .body {
+            & .body-container {
+            justify-content: space-between;
+            text-transform: none;
+            padding: 24px 0;
+
+            & .parameters-container {
+                padding: 0;
+
+                & .description {
+                    font-size: 27px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    & span {
+                        font-weight: 600;
+                    }
+
+                    & .cost {
+                        font-size: 24px;
+                    }
+                }
+
+                & .parameters-size {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    margin: 16px 0px 16px 0px;
+
+                    & .size-item {
+                        width: 63px;
+                        height: 45px;
+                        font-size: 16px;
+                    }
+
+                    & .size-container {
+                        & .size {
+                            & .color-item {
+                                & .color-param {
+                                    width: 32px;
+                                    height: 32px;
+        
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+
+            }
+            
+            & .counter {
+                gap: 24px;
+    
+                & .count-container {
+                    & .count-item {
+                        font-weight: 500;
+                        font-size: 24px;
+                    }
+    
+                    & .count-btn {
+                        border: 2px solid;
+                        padding: 14px 14px 11px 14px;
+    
+                    }
+                }
+                
+                & .product-img {
+                    margin: 0;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+    
+
+
